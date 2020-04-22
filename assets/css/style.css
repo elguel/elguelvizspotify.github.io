@@ -10,3 +10,11 @@
   color: white;
   font-size: 30px;
 }
+
+.page-header {
+  background-image: url(http://lorempixel.com/image_output/people-q-c-1200-400-6.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: 100% auto;
+}
