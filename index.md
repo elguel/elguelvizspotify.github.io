@@ -14,7 +14,7 @@ htmltools::tags$iframe(
   frameBorder = "0"
 )
 ```
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="fig1.html" height="525" width="100%"></iframe>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://github.com/elguel/elguelvizspotify.github.io/blob/master/fig1.html" height="525" width="100%"></iframe>
 
 ### Markdown
 
