@@ -6,10 +6,6 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 <iframe width="492.5" height="304.52916666666664" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPoUKAu92dOW0Bb7z-oG9RDCU_QZk34bjIZUlNirsIHbBlsnNQclCCmT2kW05Agw/pubchart?oid=909826012&amp;format=interactive"></iframe>
 
-<div id="htmlwidget_container">
-  <div id="htmlwidget-e5bc7187a4b133e235b9" style="width:100%;height:400px;" class="plotly html-widget"></div>
-</div>
-
 ```{r}
 htmltools::tags$iframe(
   src = "fig1.html", 
