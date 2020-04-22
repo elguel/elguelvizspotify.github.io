@@ -14,7 +14,13 @@ htmltools::tags$iframe(
   frameBorder = "0"
 )
 ```
-<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://github.com/elguel/elguelvizspotify.github.io/blob/master/fig1.html" height="525" width="100%"></iframe>
+```{r}
+# Source: http://www.htmlwidgets.org/showcase_plotly.html
+library(plotly)
+p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
+            geom_bar(position = "dodge")
+ggplotly(p)
+```
 
 ### Markdown
 
