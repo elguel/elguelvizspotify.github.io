@@ -2,7 +2,7 @@
 
 You can use the [editor on GitHub](https://github.com/elguel/elguelvizspotify.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-This visualization page is created to explore Spotify listening habits of people in 4 Nordic countries - Finland, Sweden, Norway and Denmmark - over a period of January - March 2020.
+This visualization page is created to explore Spotify listening habits of people in 4 Nordic countries - Finland, Sweden, Norway and Denmark - over a period of January - March 2020.
 
 Let's see what they look like!
 
