@@ -2,7 +2,9 @@
 
 You can use the [editor on GitHub](https://github.com/elguel/elguelvizspotify.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This visualization page is created to explore Spotify listening habits of people in 4 Nordic countries - Finland, Sweden, Norway and Denmmark - over a period of January - March 2020.
+
+Let's see what they look like!
 
 <iframe width="492.5" height="304.52916666666664" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPoUKAu92dOW0Bb7z-oG9RDCU_QZk34bjIZUlNirsIHbBlsnNQclCCmT2kW05Agw/pubchart?oid=909826012&amp;format=interactive"></iframe>
 
