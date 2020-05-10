@@ -10,25 +10,26 @@ Let's see what they look like!
 
 ### Daily TOP-200 songs data 
 
-Let's see how average streaming developed over 3 months of 2020 and compare it to the previous year - we see that average number of streams was larger than in 2019, although the number dropped in March to a level below the 2019 level.
+The data was collected from daily TOP-200 chart using the defined time frame.
+Let's see average streaming over 3 months of 2020 and compare it to the previous year - we see that average number of streams was larger than in 2019, although the number dropped in March to a level below the 2019 level.
 
 {% include yoy.html %}
 
-To understand the listening habits of the 4 Nordic countries better, it's good to check distribution of **song characteristics**. Measures of song characteristics is something that Spotify provides.
+To understand listening habits of the 4 Nordic countries better, it's good to check distribution of **song characteristics**. Measures of song characteristics is something that Spotify provides.
 The following song characteristics were included:
 - tempo (tempo of a track in beats per minute (BPM))
-- danceability (a value of 0.0 is least danceable and 1.0 is most danceable)
+- danceability (a value of 0.0 means least danceable and 1.0 means most danceable)
 - acousticness (a confidence measure from 0.0 to 1.0 of whether the track is acoustic)
-- loudness (psychological correlate of physical strength (amplitude, in db)
+- loudness (psychological correlate of physical strength (amplitude, in db))
 - duration (track duration in ms, converted to minutes for the visualization)
 - popularity (measure based on the total number of plays compared to other tracks and how recent those plays were)
-- energy (a value of 0.0 is least energetic and 1.0 is most energetic)
+- energy (a value of 0.0 means least energetic and 1.0 means most energetic)
 
 For more details see [Spotify audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/).
 
 {% include groupedchars.html %}
 
-This chart provides more insight on how average song characteristics differ between the 4 countries:
+This chart below provides more insight on how average song characteristics differ between the 4 countries.
 
 {% include 2020chars.html %}
 
@@ -40,7 +41,7 @@ Let's check also the **average number of streams per 1000 people**, plotted on t
 
 {% include countries20.html %}
 
-### What about COVID-19?
+### What about COVID-19, you may ask?
 
 Another thing that was on my mind was checking the overall COVID-19 cases development against the development of listening patterns. It does not seems to have much effect.
 {% include COVID.html %}
