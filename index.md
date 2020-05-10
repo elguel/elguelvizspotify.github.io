@@ -6,29 +6,29 @@ This visualization page is created to explore Spotify listening habits of people
 
 Let's see what they look like!
 
-<iframe width="492.5" height="304.52916666666664" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPoUKAu92dOW0Bb7z-oG9RDCU_QZk34bjIZUlNirsIHbBlsnNQclCCmT2kW05Agw/pubchart?oid=909826012&amp;format=interactive"></iframe>
+### Data Overview
 
-```{r}
-htmltools::tags$iframe(
-  src = "fig1.html", 
-  scrolling = "no", 
-  seamless = "seamless",
-  frameBorder = "0"
-)
-```
-```{r}
-# Source: http://www.htmlwidgets.org/showcase_plotly.html
-library(plotly)
-p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
-            geom_bar(position = "dodge")
-ggplotly(p)
-```
-{% include fig.html %}
+The data includes daily streaming numbers in the Nordics (including Finland, Sweden, Denmark and Norway) for 3 months of  2020, and the same period for 2019. 
 
-{% include fig2.html %}
-### Markdown
+{% include yoy.html %}
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+{% include linear.html %}
+### TOP 200 songs' characteristics
+
+Let's explore song characteristics on TOP-200 daily songs from Spotify.
+
+{% include linear.html %}
+
+### TOP 200 songs' characteristics
+{% include groupedchars.html %}
+
+{% include 2020chars.html %}
+
+{% include 2019chars.html %}
+
+Geographical plots
+
+{% include countries20.html %}
 
 ```markdown
 Syntax highlighted code block
@@ -50,10 +50,11 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### What about COVID-19?
+
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elguel/elguelvizspotify.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Thank you!
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Hope you enjoyed my visualization! See you again!
