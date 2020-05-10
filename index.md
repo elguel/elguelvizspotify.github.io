@@ -1,6 +1,6 @@
 ## Welcome to Spotify viz
 
-<img src="assets/css/logo@2x.png" alt="hi" width="1187" height="496" class="inline"/>
+<img src="assets/css/logo@2x.png" alt="hi" width="50%" height="50%" class="inline"/>
 
 
 
