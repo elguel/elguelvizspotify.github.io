@@ -17,9 +17,6 @@ The data includes daily streaming numbers in the Nordics (including Finland, Swe
 
 Let's explore song characteristics on TOP-200 daily songs from Spotify.
 
-{% include linear.html %}
-
-### TOP 200 songs' characteristics
 {% include groupedchars.html %}
 
 {% include 2020chars.html %}
@@ -52,7 +49,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### What about COVID-19?
 
-
+{% include COVID.html %}
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elguel/elguelvizspotify.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Thank you!
