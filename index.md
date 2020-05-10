@@ -29,7 +29,7 @@ For more details, see [Spotify audio features](https://developer.spotify.com/doc
 
 {% include groupedchars.html %}
 
-This chart below provides more insight on how average song characteristics differ between the 4 countries.
+This chart below provides more insight on how average song characteristics differ between the 4 countries. We can see that they are quite similar.
 
 {% include 2020chars.html %}
 
