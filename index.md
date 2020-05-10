@@ -41,7 +41,7 @@ Let's check also the **average number of streams per 1000 people**, plotted on t
 
 {% include countries20.html %}
 
-### What about COVID-19, you may ask?
+### What about COVID-19?
 
 Another thing that was on my mind was checking the overall COVID-19 cases development against the development of listening patterns. It does not seems to have much effect.
 {% include COVID.html %}
