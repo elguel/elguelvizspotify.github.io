@@ -6,24 +6,33 @@ This visualization page is created to explore Spotify listening habits of people
 
 Let's see what they look like!
 
-### Data Overview
+### Daily TOP 200 songs data 
 
-The data includes daily streaming numbers in the Nordics (including Finland, Sweden, Denmark and Norway) for 3 months of  2020, and the same period for 2019. 
+Let's see how average streaming developed over 3 months of 2020 and compare it to the previous year - we see that average number of streams was larger than in 2019, although the number dropped in March to a level below the 2019 level.
 
 {% include yoy.html %}
 
-{% include linear.html %}
-### TOP 200 songs' characteristics
-
-Let's explore song characteristics on TOP-200 daily songs from Spotify.
+To understand the listening habits of the 4 Nordic countries better, it's good to check distribution of song characteristics. Measures of song characteristics is something that Spotify provides.
+The following song characteristics were included:
+- tempo
+- danceability
+- acousticness
+- loudness
+- duration
+- popularity
+- energy
 
 {% include groupedchars.html %}
 
+This chart provides more insight on how these averaged characteristics differ between the 4 countries:
+
 {% include 2020chars.html %}
+
+And this is a chart for 2019 data. We see that there is not much difference between the 2 years.
 
 {% include 2019chars.html %}
 
-Geographical plots
+Let's check also the number of streams per 1000 people, plotted on the map. Finland seems to have the smallest number of streams.
 
 {% include countries20.html %}
 
@@ -37,8 +46,6 @@ Syntax highlighted code block
 - Bulleted
 - List
 
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
@@ -49,9 +56,10 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 ### What about COVID-19?
 
+Another thing that was on my mind was checking if COVID-19 case development against the development of listening patterns. It does not seems to cause much effect.
 {% include COVID.html %}
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/elguel/elguelvizspotify.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
 
 ### Thank you!
 
-Hope you enjoyed my visualization! See you again!
+This was it, hope you enjoyed my visualization, see you again! 
