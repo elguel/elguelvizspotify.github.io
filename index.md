@@ -14,7 +14,7 @@ Let's see how average streaming developed over 3 months of 2020 and compare it t
 
 {% include yoy.html %}
 
-To understand the listening habits of the 4 Nordic countries better, it's good to check distribution of song characteristics. Measures of song characteristics is something that Spotify provides.
+To understand the listening habits of the 4 Nordic countries better, it's good to check distribution of **song characteristics**. Measures of song characteristics is something that Spotify provides.
 The following song characteristics were included:
 - tempo (tempo of a track in beats per minute (BPM))
 - danceability (a value of 0.0 is least danceable and 1.0 is most danceable)
@@ -23,18 +23,19 @@ The following song characteristics were included:
 - duration (track duration in ms, converted to minutes for the visualization)
 - popularity (measure based on the total number of plays compared to other tracks and how recent those plays were)
 - energy (a value of 0.0 is least energetic and 1.0 is most energetic)
+For more details see [Spotify audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/).
 
 {% include groupedchars.html %}
 
-This chart provides more insight on how average song characteristics differ between the 4 countries:
+This chart provides more insight on how **average song characteristics** differ between the 4 countries:
 
 {% include 2020chars.html %}
 
-And this is a chart for 2019 data. We see that there is not much difference between the 2 years.
+And this is a chart for **2019 data**. We see that there is not much difference between the 2 years.
 
 {% include 2019chars.html %}
 
-Let's check also the average number of streams per 1000 people, plotted on the map. Finland seems to have the smallest number.
+Let's check also the **average number of streams per 1000 people**, plotted on the map. Finland seems to have the smallest number.
 
 {% include countries20.html %}
 
