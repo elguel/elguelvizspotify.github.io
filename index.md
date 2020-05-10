@@ -1,6 +1,6 @@
 ## Welcome to Spotify viz
 
-![useful image](elguelvizspotify.github.io/assets/spotify-logo.png)
+![useful image](https://github.com/elguel/elguelvizspotify.github.io/blob/master/assets/css/spotify-logo.png)
 
 You can use the [editor on GitHub](https://github.com/elguel/elguelvizspotify.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -16,13 +16,13 @@ Let's see how average streaming developed over 3 months of 2020 and compare it t
 
 To understand the listening habits of the 4 Nordic countries better, it's good to check distribution of song characteristics. Measures of song characteristics is something that Spotify provides.
 The following song characteristics were included:
-- tempo
-- danceability
-- acousticness
-- loudness
-- duration
-- popularity
-- energy
+- tempo (tempo of a track in beats per minute (BPM))
+- danceability (a value of 0.0 is least danceable and 1.0 is most danceable)
+- acousticness (a confidence measure from 0.0 to 1.0 of whether the track is acoustic)
+- loudness (psychological correlate of physical strength (amplitude, in db)
+- duration (track duration in ms, converted to minutes for the visualization)
+- popularity (measure based on the total number of plays compared to other tracks and how recent those plays were)
+- energy (a value of 0.0 is least energetic and 1.0 is most energetic)
 
 {% include groupedchars.html %}
 
@@ -40,11 +40,6 @@ Let's check also the average number of streams per 1000 people, plotted on the m
 
 ```markdown
 Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
