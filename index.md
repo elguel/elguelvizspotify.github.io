@@ -1,10 +1,7 @@
 ## Welcome to Spotify viz
 
-<img src="assets/css/spotify-logo.png" alt="hi" class="inline"/>
+<img src="assets/css/logo@2x.png" alt="hi" class="inline"/>
 
-![My helpful screenshot](/assets/css/spotify-logo.png)
-
-![useful image](https://github.com/elguel/elguelvizspotify.github.io/blob/master/assets/css/spotify-logo.png)
 
 
 This visualization page is created to explore **Spotify** listening habits of people in 4 Nordic countries - Finland, Sweden, Norway and Denmark - over a period of January - March 2020.
