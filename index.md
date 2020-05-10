@@ -1,5 +1,7 @@
 ## Welcome to Spotify viz
 
+![My helpful screenshot](/assets/spotify-logo.png)
+
 ![useful image](https://github.com/elguel/elguelvizspotify.github.io/blob/master/assets/css/spotify-logo.png)
 
 You can use the [editor on GitHub](https://github.com/elguel/elguelvizspotify.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
@@ -38,9 +40,6 @@ And this is a chart for **2019 data**. We see that there is not much difference 
 Let's check also the **average number of streams per 1000 people**, plotted on the map. Finland seems to have the smallest number.
 
 {% include countries20.html %}
-
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### What about COVID-19?
 
