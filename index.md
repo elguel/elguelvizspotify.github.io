@@ -25,7 +25,7 @@ The following song characteristics were included:
 - popularity (measure based on the total number of plays compared to other tracks and how recent those plays were)
 - energy (a value of 0.0 means least energetic and 1.0 means most energetic)
 
-For more details see [Spotify audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/).
+For more details, see [Spotify audio features](https://developer.spotify.com/documentation/web-api/reference/tracks/get-audio-features/).
 
 {% include groupedchars.html %}
 
